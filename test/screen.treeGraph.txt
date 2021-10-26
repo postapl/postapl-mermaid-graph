@@ -1,0 +1,154 @@
+graph LR
+N0[document]
+N1[object]
+N2[property <br /> 'type']
+N3[key]
+N4[string]
+N5[property <br /> 'version']
+N6[key]
+N7[string]
+N8[property <br /> 'settings']
+N9[key]
+N10[object]
+N11[property <br /> 'theme']
+N12[key]
+N13[string]
+N14[property <br /> 'import']
+N15[key]
+N16[array]
+N17[property <br /> 'resources']
+N18[key]
+N19[array]
+N20[property <br /> 'styles']
+N21[key]
+N22[object]
+N23[property <br /> 'onMount']
+N24[key]
+N25[array]
+N26[property <br /> 'graphics']
+N27[key]
+N28[object]
+N29[property <br /> 'commands']
+N30[key]
+N31[object]
+N32[property <br /> 'layouts']
+N33[key]
+N34[object]
+N35[property <br /> 'mainTemplate']
+N36[key]
+N37[object]
+N38[property <br /> 'mainTemplate.parameters']
+N39[key]
+N40[array]
+N41[string <br /> 'mainTemplate.parameters.0']
+N42[property <br /> 'mainTemplate.items']
+N43[key]
+N44[array]
+N45[object <br /> 'mainTemplate.items.0']
+N46[property <br /> 'mainTemplate.items.0.type']
+N47[key]
+N48[string]
+N49[property <br /> 'mainTemplate.items.0.width']
+N50[key]
+N51[string]
+N52[property <br /> 'mainTemplate.items.0.height']
+N53[key]
+N54[string]
+N55[property <br /> 'mainTemplate.items.0.data']
+N56[key]
+N57[array]
+N58[property <br /> 'mainTemplate.items.0.items']
+N59[key]
+N60[array]
+N61[object <br /> 'mainTemplate.items.0.items.0']
+N62[property <br /> 'mainTemplate.items.0.items.0.type']
+N63[key]
+N64[string]
+N65[property <br /> 'mainTemplate.items.0.items.0.backgroundColor']
+N66[key]
+N67[string]
+N68[property <br /> 'mainTemplate.items.0.items.0.height']
+N69[key]
+N70[string]
+N71[property <br /> 'mainTemplate.items.0.items.0.width']
+N72[key]
+N73[string]
+N74[property <br /> 'mainTemplate.items.0.items.0.item']
+N75[key]
+N76[object]
+N0 ---> N1
+N1 ---> N2
+N2 ---> N3
+N2 ---> N4
+N1 ---> N5
+N5 ---> N6
+N5 ---> N7
+N1 ---> N8
+N8 ---> N9
+N8 ---> N10
+N1 ---> N11
+N11 ---> N12
+N11 ---> N13
+N1 ---> N14
+N14 ---> N15
+N14 ---> N16
+N1 ---> N17
+N17 ---> N18
+N17 ---> N19
+N1 ---> N20
+N20 ---> N21
+N20 ---> N22
+N1 ---> N23
+N23 ---> N24
+N23 ---> N25
+N1 ---> N26
+N26 ---> N27
+N26 ---> N28
+N1 ---> N29
+N29 ---> N30
+N29 ---> N31
+N1 ---> N32
+N32 ---> N33
+N32 ---> N34
+N1 ---> N35
+N35 ---> N36
+N35 ---> N37
+N37 ---> N38
+N38 ---> N39
+N38 ---> N40
+N40 ---> N41
+N37 ---> N42
+N42 ---> N43
+N42 ---> N44
+N44 ---> N45
+N45 ---> N46
+N46 ---> N47
+N46 ---> N48
+N45 ---> N49
+N49 ---> N50
+N49 ---> N51
+N45 ---> N52
+N52 ---> N53
+N52 ---> N54
+N45 ---> N55
+N55 ---> N56
+N55 ---> N57
+N45 ---> N58
+N58 ---> N59
+N58 ---> N60
+N60 ---> N61
+N61 ---> N62
+N62 ---> N63
+N62 ---> N64
+N61 ---> N65
+N65 ---> N66
+N65 ---> N67
+N61 ---> N68
+N68 ---> N69
+N68 ---> N70
+N61 ---> N71
+N71 ---> N72
+N71 ---> N73
+N61 ---> N74
+N74 ---> N75
+N74 ---> N76

@@ -1,0 +1,6 @@
+graph
+subgraph mainTemplate
+N0[Container <br /> id:'root']
+N1[Frame <br /> id:'child']
+N0 ---> N1
+end

@@ -1,0 +1,49 @@
+{
+  "name": "postapl-mermaid-graph",
+  "version": "0.1.0",
+  "description": "PostAPL plugin to show AST or components as a Mermaid graph",
+  "keywords": [
+    "postapl",
+    "postapl-plugin",
+    "apl",
+    "alexa",
+    "alexa presentation language",
+    "mermaid",
+    "graph"
+  ],
+  "main": "./lib/plugin.js",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "lib/"
+  ],
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "author": "Mark Tucker <@marktucker>",
+  "license": "MIT",
+  "repository": "postapl/postapl-mermaid-graph",
+  "engines": {
+    "node": ">=12.0"
+  },
+  "peerDependencies": {
+    "postapl": "^1.0.0"
+  },
+  "devDependencies": {
+    "clean-publish": "^3.4.2",
+    "jest": "^27.3.1",
+    "postapl": "^1.1.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coverageThreshold": {
+      "global": {
+        "statements": 100
+      }
+    }
+  },
+  "clean-publish": {
+    "cleanDocs": true
+  }
+}
